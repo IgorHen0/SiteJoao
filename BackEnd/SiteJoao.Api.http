@@ -1,0 +1,6 @@
+@SiteJoao.Api_HostAddress = http://localhost:5034
+
+GET {{SiteJoao.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
