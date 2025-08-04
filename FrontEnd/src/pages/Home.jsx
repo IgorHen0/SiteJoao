@@ -1,0 +1,21 @@
+import professionalImage from '../assets/lane.png';
+import '../App.css';
+
+function Home() {
+  return (
+    <main className="hero-section">
+      <div className="hero-text">
+        <h1>Te ajudo a desenvolver uma relação saudável e duradoura com a alimentação!</h1>
+        <p>Acompanho adultos, bebês e crianças na construção de hábitos equilibrados, promovendo saúde e bem-estar. Agende sua consulta!</p>
+        <div className="hero-buttons">
+          <button className="btn-primary">Agendar consulta</button>
+        </div>
+      </div>
+      <div className="hero-image">
+        <img src={professionalImage} alt="Livia Santiago, nutricionista" />
+      </div>
+    </main>
+  );
+}
+
+export default Home;
