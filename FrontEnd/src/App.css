@@ -60,7 +60,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4rem 2rem;
+  padding: 2.8rem 2rem;
   gap: 2rem;
 }
 
@@ -132,6 +132,16 @@
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  background-color: #fdf5f7;
+  color: black;
+  text-align: center;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  height: 55px;
 }
 
 /* Responsive */

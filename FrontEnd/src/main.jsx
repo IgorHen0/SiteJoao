@@ -8,6 +8,7 @@ import Home from './pages/Home.jsx';
 import QuemSou from './pages/QuemSou.jsx';
 import Acompanhamentos from './pages/Acompanhamentos.jsx';
 import Agendamentos from './pages/Agendamentos.jsx';
+import Parcerias from './pages/Parcerias.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: 'agendamentos',
         element: <Agendamentos />,
+      },
+      {
+        path: 'parcerias',
+        element: <Parcerias />,
       },
     ],
   },
